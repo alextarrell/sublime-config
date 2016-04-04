@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+SELECT INSERT_GLOBAL_SETTING_IF_NOT_EXISTS('${2:category}', '${1:name}', '${3:value}', '<zrtf>${4:${5:Description}<br><br>Expected Values: ${6:expected}<br><br>Recommended Values: ${7:recommended}}</zrtf>', '${8:FALSE}', '${9:NULL}');
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>insertglobal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>Adds a global setting</description>
+</snippet>

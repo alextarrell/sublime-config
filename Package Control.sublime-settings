@@ -1,0 +1,44 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Anaconda",
+		"Better CoffeeScript",
+		"Case Conversion",
+		"Color Highlighter",
+		"CSS3",
+		"DocBlockr",
+		"EasyDiff",
+		"Emmet",
+		"Git",
+		"HTML-CSS-JS Prettify",
+		"LESS",
+		"LoremIpsum",
+		"Origami",
+		"Package Control",
+		"PlainTasks",
+		"PowerCursors",
+		"ScalaFormat",
+		"Select Quoted",
+		"SideBarEnhancements",
+		"SqlBeautifier",
+		"SQLExec",
+		"Status Bar Time",
+		"Sublime Input",
+		"SublimeLinter",
+		"SublimeLinter-cppcheck",
+		"SublimeLinter-csslint",
+		"SublimeLinter-javac",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-xmllint",
+		"SublimeREPL",
+		"Text Pastry",
+		"TrailingSpaces",
+		"VCS Gutter"
+	]
+}

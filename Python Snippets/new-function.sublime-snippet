@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+# ==============================================================================
+@profile
+def ${1:function}(${2:args}):
+	${3:pass}
+]]></content>
+	<tabTrigger>defc</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

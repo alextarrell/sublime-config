@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$log.info('${1:Thing to Log}: ' + ${1:Thing to Log});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>info</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

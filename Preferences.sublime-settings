@@ -1,0 +1,141 @@
+{
+	"added_words":
+	[
+		"autosave",
+		"config",
+		"preconfigured",
+		"pdfpoints",
+		"checkbox",
+		"nullable",
+		"dropdown",
+		"Monokai",
+		"directwrite",
+		"heightmap",
+		"indices",
+		"programatically",
+		"geostrophic",
+		"Memoizes"
+	],
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Custom Monokai.tmTheme",
+	"default_line_ending": "unix",
+	"draw_minimap_border": true,
+	"enable_tab_scrolling": false,
+	"fallback_encoding": "UTF-8",
+	"font_options":
+	[
+		"directwrite"
+	],
+	"font_size": 15,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"CSS",
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"Dropdowns",
+		"Workflow",
+		"addressesid",
+		"agenciesid",
+		"businessesid",
+		"casename",
+		"casesid",
+		"currentid",
+		"deregister",
+		"dob",
+		"eyecolors",
+		"eyecolorsid",
+		"firstname",
+		"haircolors",
+		"haircolorsid",
+		"jrsr",
+		"lastname",
+		"middlename",
+		"names",
+		"namesid",
+		"offensesid",
+		"peopleid",
+		"phonesid",
+		"prettyname",
+		"requiredness",
+		"ssn",
+		"statutesid",
+		"summonsid",
+		"tablename",
+		"unapplied",
+		"uncollectible",
+		"undesignated",
+		"username",
+		"zt"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"*.md",
+		"*.resources",
+		"*.exp",
+		"*.otf",
+		"*.eot",
+		"*.ttf",
+		"*.woff"
+	],
+	"margin": 3,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"pep8_ignore":
+	[
+		"E101",
+		"E121",
+		"E126",
+		"E128",
+		"E203",
+		"E221",
+		"E225",
+		"E231",
+		"E251",
+		"E261",
+		"E265",
+		"E266",
+		"E301",
+		"E302",
+		"E303",
+		"E401",
+		"E501",
+		"E502",
+		"E701",
+		"W191",
+		"W291",
+		"W292",
+		"W293"
+	],
+	"rulers":
+	[
+		90
+	],
+	"spell_check": true,
+	"todo":
+	{
+		"case_sensitive": true,
+		"patterns":
+		{
+			"CHANGED": "CHANGED[\\s]*?:+(?P<changed>\\S.*)$",
+			"FIXME": "FIX ?ME[\\s]*?:+(?P<fixme>\\S.*)$",
+			"NOTE": "NOTE[\\s]*?:+(?P<note>.*)$",
+			"TODO": "TODO[\\s]*?:+(?P<todo>.*)$"
+		}
+	},
+	"trim_trailing_white_space_on_save": false,
+	"show_full_path": true
+}

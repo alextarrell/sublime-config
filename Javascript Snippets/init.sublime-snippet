@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+Initializer.init('${1:init_header}', {
+  tag: '${2:tag}'
+}).then(function(records) {
+  controls_model.${2:tag} = records;
+}),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>init</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

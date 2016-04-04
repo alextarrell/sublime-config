@@ -1,0 +1,66 @@
+[
+    { "caption": "-" },
+    {
+        "caption": "EasyDiff Set Left Side",
+        "children":
+        [
+            {
+                "caption": "View",
+                "command": "easy_diff_set_left"
+            },
+            {
+                "caption": "Clipboard",
+                "command": "easy_diff_set_left_clipboard"
+            },
+            {
+                "caption": "Selection",
+                "command": "easy_diff_set_left_selection"
+            }
+        ]
+    },
+    {
+        "caption": "EasyDiff Compare with \"...\"",
+        "children":
+        [
+            {
+                "caption": "View",
+                "command": "easy_diff_compare_both_view"
+            },
+            {
+                "caption": "Clipboard",
+                "command": "easy_diff_compare_both_clipboard"
+            },
+            {
+                "caption": "Selection",
+                "command": "easy_diff_compare_both_selection"
+            }
+        ]
+    },
+
+    {
+        "caption": "EasyDiff Version Control",
+        "children":
+        [
+
+            {
+                "caption": "SVN Diff",
+                "command": "easy_diff_svn"
+            },
+            {
+                "caption": "SVN Diff with Previous Revision",
+                "command": "easy_diff_svn",
+                "args": {"last": true}
+            },
+            {
+                "caption": "SVN Revert",
+                "command": "easy_diff_svn",
+                "args": {"revert": true}
+            },
+            { "caption": "-"}
+        ]
+    },
+
+    
+    
+    { "caption": "-"}
+]

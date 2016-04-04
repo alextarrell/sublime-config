@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+{
+	"type": "text",
+	"font": "normal",
+	"at": [${1:243}, ${2:92}],
+	"width": ${3:46},
+	"align": "${5:left}",
+	"tag": "${4:<tag>}",
+	"value": "<TEST>",
+	"height": 0
+},
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tagnode</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.json</scope>
+</snippet>

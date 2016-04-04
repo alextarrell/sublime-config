@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+zt-combobox ng-model="model.${1}" items="controls_model.${2:$1s}"${3}></zt-combobox>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ztcombobox</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

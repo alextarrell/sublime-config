@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+zwarn << __FUNCTION__ << "(" << __LINE__ << "): ${1:Warning Message} -- " << ZVAR(${2:Variable}) << endl;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zwarn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
