@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[-- =============================================================================]]></content>
+	<tabTrigger>sep</tabTrigger>
+	<scope>source.sql</scope>
+</snippet>

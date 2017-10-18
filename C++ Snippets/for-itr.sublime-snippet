@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+for ($1::const_iterator itr = $2.constBegin(); itr != $2.constEnd(); ++itr)
+{
+    $0
+}
+]]></content>
+	<tabTrigger>for-itr</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

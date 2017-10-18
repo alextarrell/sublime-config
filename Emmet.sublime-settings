@@ -1,3 +1,5 @@
 {
-	"show_css_completions": false
+	"show_css_completions": false,
+	"disable_tab_abbreviations_for_scopes": "source.sql",
+	"disabled_keymap_actions": "reflect_css_value,encode_decode_data_url,expand_abbreviation"
 }

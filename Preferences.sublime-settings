@@ -1,4 +1,5 @@
 {
+	"WrapPlus.wrap_width": 72,
 	"added_words":
 	[
 		"autosave",
@@ -8,56 +9,158 @@
 		"checkbox",
 		"nullable",
 		"dropdown",
-		"Monokai",
-		"directwrite",
-		"heightmap",
+		"Evidentiary",
+		"programmatically",
+		"memoize",
+		"hashable",
+		"Texting",
+		"Citee",
 		"indices",
-		"programatically",
-		"geostrophic",
-		"Memoizes"
+		"combobox",
+		"impoundment",
+		"ascii",
+		"historicalization",
+		"historicalized",
+		"deserialization",
+		"zipcode",
+		"deregistration",
+		"hispanic",
+		"multiagency",
+		"stateful",
+		"toggleable",
+		"Online",
+		"cancelable",
+		"batchless",
+		"unescaped",
+		"Requiredness",
+		"fallback",
+		"everytime",
+		"requery",
+		"autocompletion",
+		"nonwaiverable",
+		"Validator",
+		"validators",
+		"online",
+		"wrappage",
+		"Wildland",
+		"spamming",
+		"truthy",
+		"Username",
+		"ok",
+		"namespace",
+		"fullname",
+		"metadata",
+		"async",
+		"clearable"
 	],
 	"always_show_minimap_viewport": true,
+	"atomic_save": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": ".",
+			"selector": "source.sql"
+		}
+	],
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.exe",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.pyc",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"*.pdn"
+	],
 	"bold_folder_labels": true,
+	"caret_extra_width": 2,
 	"color_scheme": "Packages/User/Custom Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"draw_minimap_border": true,
 	"enable_tab_scrolling": false,
+	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "UTF-8",
+	"file_exclude_patterns":
+	[
+		"*.min.*",
+		"*-min.*"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		".svn",
+		"artifacts",
+		"build",
+		"dist",
+		"node_modules",
+		"site-packages"
+	],
 	"font_options":
 	[
 		"directwrite"
 	],
-	"font_size": 15,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"CSS",
+		"Color Highlighter",
+		"JsPrettier",
+		"LoremIpsum",
+		"ScopeHunter",
+		"SQLTools",
 		"Vintage"
 	],
 	"ignored_words":
 	[
 		"Dropdowns",
+		"Optimus",
+		"Pre",
 		"Workflow",
 		"addressesid",
 		"agenciesid",
 		"businessesid",
+		"cancelled",
 		"casename",
 		"casesid",
+		"childid",
+		"childtable",
 		"currentid",
+		"datetime",
+		"datetimes",
 		"deregister",
 		"dob",
+		"exportsid",
+		"eyecolor",
 		"eyecolors",
 		"eyecolorsid",
 		"firstname",
+		"haircolor",
 		"haircolors",
 		"haircolorsid",
+		"involvementcodes",
 		"jrsr",
 		"lastname",
+		"lineedit",
 		"middlename",
+		"misconfigured",
 		"names",
 		"namesid",
 		"offensesid",
+		"oln",
 		"peopleid",
 		"phonesid",
 		"prettyname",
@@ -69,8 +172,15 @@
 		"unapplied",
 		"uncollectible",
 		"undesignated",
+		"unicode",
+		"url",
 		"username",
-		"zt"
+		"vehiclesid",
+		"xml",
+		"zforms",
+		"zformsid",
+		"zt",
+		"–"
 	],
 	"indent_guide_options":
 	[
@@ -80,41 +190,51 @@
 	"index_exclude_patterns":
 	[
 		"*.log",
-		"*.md",
 		"*.resources",
 		"*.exp",
 		"*.otf",
 		"*.eot",
 		"*.ttf",
-		"*.woff"
+		"*.woff",
+		"*.bin",
+		"*.pyc"
 	],
+	"line_padding_top": 0,
 	"margin": 3,
 	"match_brackets": true,
 	"match_brackets_angle": true,
 	"match_brackets_braces": true,
 	"match_brackets_content": true,
 	"match_brackets_square": true,
+	"match_selection": true,
 	"pep8_ignore":
 	[
 		"E101",
 		"E121",
+		"E122",
 		"E126",
+		"E127",
 		"E128",
 		"E203",
 		"E221",
 		"E225",
+		"E226",
 		"E231",
+		"E241",
 		"E251",
 		"E261",
+		"E262",
 		"E265",
-		"E266",
 		"E301",
 		"E302",
 		"E303",
+		"E305",
 		"E401",
+		"E402",
 		"E501",
 		"E502",
 		"E701",
+		"E731",
 		"W191",
 		"W291",
 		"W292",
@@ -124,7 +244,13 @@
 	[
 		90
 	],
+	"save_on_focus_lost": true,
+	"show_definitions": false,
+	"show_encoding": true,
+	"show_errors_inline": false,
+	"show_line_endings": true,
 	"spell_check": true,
+	"theme": "Adaptive.sublime-theme",
 	"todo":
 	{
 		"case_sensitive": true,
@@ -136,6 +262,5 @@
 			"TODO": "TODO[\\s]*?:+(?P<todo>.*)$"
 		}
 	},
-	"trim_trailing_white_space_on_save": false,
-	"show_full_path": true
+	"trim_trailing_white_space_on_save": false
 }

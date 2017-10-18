@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+connect(${1:lblName}, SIGNAL(clicked(${3:const QString&})), this, SLOT(${2:_handleLink}(${3:const QString&})));
+]]></content>
+	<tabTrigger>connect-lbl</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

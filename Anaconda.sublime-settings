@@ -1,0 +1,6 @@
+{
+    "anaconda_linter_mark_style": "outline",
+    "enable_docstrings_tooltip": true,
+    "enable_signatures_tooltip": false,
+    "complete_parameters": true
+}

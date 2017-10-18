@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+connect(${1:cbo}, SIGNAL(keyChanged(const QString&)), this, SLOT(${2:_requery()}));
+]]></content>
+	<tabTrigger>connect-cbo</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

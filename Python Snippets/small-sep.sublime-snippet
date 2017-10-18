@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[# ------------------------------------------------------------------------------]]></content>
+	<tabTrigger>ssep</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

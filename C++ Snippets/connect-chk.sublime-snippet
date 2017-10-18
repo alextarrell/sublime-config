@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+connect(${1:chk}, SIGNAL(toggled(bool)), this, SLOT(${2:handleToggled}(bool)));
+]]></content>
+	<tabTrigger>connect-chk</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

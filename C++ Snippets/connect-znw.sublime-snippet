@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+connect(${1:znw}, SIGNAL(recordSelected(const QString&)), this, SLOT(${2:handleNameSelected}(const QString&)));
+]]></content>
+	<tabTrigger>connect-znw</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

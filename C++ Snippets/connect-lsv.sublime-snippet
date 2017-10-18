@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+connect(${1:lsv}, SIGNAL(${2:itemChosen|keyPressed_Delete|selectionChanged}${2/(i$)|(k$)|(s$).*/?1:temChosen:?2:eyPressed_Delete:?3:electionChanged/i}(const QString&)), this, SLOT(${3:action}(${4:const QString&})));
+]]></content>
+	<tabTrigger>connect-lsv</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

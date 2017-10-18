@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+connect(${1:lne}, SIGNAL(returnPressed()), this, SLOT(${2:_requery}()));
+]]></content>
+	<tabTrigger>connect-lne</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

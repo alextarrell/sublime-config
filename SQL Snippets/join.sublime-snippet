@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:LEFT/RIGHT/FULL }${1/(l$)|(r$)|(f$)|(le$)|(ri$)|(fu$)|.*/?1:EFT :?2:IGHT :?3:ULL :?4:FT :?5:GHT :?6:LL /i}JOIN ${2} ${2/(?:^(\w))|(?:_(\w))|\w/(?1$1)(?2$2)/g} ON (${2/(?:^(\w))|(?:_(\w))|\w/(?1$1)(?2$2)/g}.${2}id = ${4}.${5:$2}id)$0
+]]></content>
+    <tabTrigger>join</tabTrigger>
+    <scope>source.sql</scope>
+</snippet>
