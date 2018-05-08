@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Advanced CSV",
 		"Alignment",
 		"Anaconda",
 		"ARM Assembly",
@@ -14,11 +15,13 @@
 		"DocBlockr",
 		"EasyDiff",
 		"Emmet",
+		"Exalt",
 		"FindKeyConflicts",
 		"Hasher",
 		"HexViewer",
 		"HTML-CSS-JS Prettify",
 		"LESS",
+		"LSP",
 		"M4Expand",
 		"Origami",
 		"Package Control",
@@ -34,12 +37,13 @@
 		"SublimeLinter-contrib-eslint_d",
 		"SublimeLinter-cppcheck",
 		"SublimeLinter-cpplint",
+		"SublimeLinter-pylint",
 		"SublimeREPL",
 		"SVN",
 		"Text Pastry",
 		"TrailingSpaces",
 		"TypeScript",
 		"VCS Gutter",
-		"Wrap Plus"
+		"xpath"
 	]
 }

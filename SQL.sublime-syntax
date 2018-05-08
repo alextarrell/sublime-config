@@ -34,7 +34,7 @@ contexts:
         1: keyword.other.create.sql
         2: keyword.other.table.sql
 
-    - match: '\b(?i:(TRUE|FALSE))\b'
+    - match: '\b(?i:(TRUE|FALSE|DEFAULT))\b'
       scope: constant.language
 
     - match: |
@@ -77,7 +77,7 @@ contexts:
       scope: storage.modifier.sql
     - match: \b\d+\b
       scope: constant.numeric.sql
-    - match: (?i:\b(select(\s+distinct)?|insert\s+(ignore\s+)?into|update|delete|from|set|where|group\sby|or|like|and|union(\s+all)?|having|order\sby|limit|(inner|cross)\s+join|straight_join|(left|right)(\s+outer)?\s+join|natural(\s+(left|right)(\s+outer)?)?\s+join)\b)
+    - match: (?i:\b(select(\s+distinct)?|insert\s+(ignore\s+)?into|update|delete|into|from|set|where|group\sby|or|like|and|union(\s+all)?|having|order\sby|limit|(inner|cross)\s+join|straight_join|(left|right)(\s+outer)?\s+join|natural(\s+(left|right)(\s+outer)?)?\s+join)\b)
       scope: keyword.other.DML.sql
     - match: (?i:\b(on|((is\s+)?not\s+)?null)\b)
       scope: keyword.other.DDL.create.II.sql
@@ -109,7 +109,7 @@ contexts:
     - match: (?i)\b(AVG|COUNT|MIN|MAX|SUM)(?=\s*\()
       comment: List of SQL99 built-in functions from http://www.oreilly.com/catalog/sqlnut/chapter/ch04.html
       scope: support.function.aggregate.sql
-    - match: (?i)\b(CONCATENATE|CONVERT|LOWER|SUBSTRING|TRANSLATE|TRIM|UPPER)\b
+    - match: (?i)\b(CONCATENATE|CONVERT|LOWER|SUBSTRING|TRANSLATE|TRIM|UPPER|LINK|CONFIG_TABLE_HEADER|CONFIG_TABLE_FOOTER|COMMENT_TABLE|INSERT_GLOBAL_SETTING_IF_NOT_EXISTS)\b
       scope: support.function.string.sql
     - match: \b(\w+?)\.(\w+)\b
       captures:

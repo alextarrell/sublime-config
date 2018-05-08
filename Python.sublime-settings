@@ -4,5 +4,9 @@
 		"wsgi"
 	],
 	"tab_size": 4,
-	"translate_tabs_to_spaces": false
+	"translate_tabs_to_spaces": false,
+	"auto-complete-triggers": [{
+		"selector": "source.python",
+		"characters": "."
+	}]
 }

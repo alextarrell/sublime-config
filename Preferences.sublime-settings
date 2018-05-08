@@ -51,7 +51,11 @@
 		"fullname",
 		"metadata",
 		"async",
-		"clearable"
+		"clearable",
+		"Cufflinks",
+		"Lightbulbs",
+		"barcode",
+		"Errored"
 	],
 	"always_show_minimap_viewport": true,
 	"atomic_save": true,
@@ -68,7 +72,11 @@
 	],
 	"binary_file_patterns":
 	[
+		"*.bin",
+		"*.cache",
+		"*.db",
 		"*.dds",
+		"*.dll",
 		"*.eot",
 		"*.exe",
 		"*.gif",
@@ -76,14 +84,21 @@
 		"*.jar",
 		"*.jpeg",
 		"*.jpg",
+		"*.nupkg",
 		"*.pdf",
+		"*.pdn",
 		"*.png",
 		"*.pyc",
+		"*.pyc",
+		"*.pyd",
+		"*.resources",
+		"*.snk",
+		"*.so",
 		"*.swf",
 		"*.tga",
 		"*.ttf",
-		"*.zip",
-		"*.pdn"
+		"*.wav",
+		"*.zip"
 	],
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
@@ -108,20 +123,24 @@
 		"node_modules",
 		"site-packages"
 	],
+	"font_face": "Fira Code",
 	"font_options":
 	[
 		"directwrite"
 	],
-	"font_size": 14,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Anaconda",
 		"Color Highlighter",
 		"JsPrettier",
 		"LoremIpsum",
 		"ScopeHunter",
 		"SQLTools",
+		"SublimeLinter-cpplint",
+		"TypeScript",
 		"Vintage"
 	],
 	"ignored_words":
@@ -195,9 +214,7 @@
 		"*.otf",
 		"*.eot",
 		"*.ttf",
-		"*.woff",
-		"*.bin",
-		"*.pyc"
+		"*.woff"
 	],
 	"line_padding_top": 0,
 	"margin": 3,

@@ -1,4 +1,8 @@
 {
 	"live_mode": false,
-	"non-blocking": true
+	"non_blocking": true,
+	"vcs_paths": {
+		"diff": "C:\\Program Files (x86)\\GnuWin32\\bin\\diff.exe",
+		"svn": "svn"
+	}
 }
