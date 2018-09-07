@@ -68,6 +68,14 @@
 		{
 			"characters": ".",
 			"selector": "source.sql"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js"
+		},
+		{
+			"characters": ".",
+			"selector": "source.ts"
 		}
 	],
 	"binary_file_patterns":
@@ -89,7 +97,6 @@
 		"*.pdn",
 		"*.png",
 		"*.pyc",
-		"*.pyc",
 		"*.pyd",
 		"*.resources",
 		"*.snk",
@@ -98,7 +105,8 @@
 		"*.tga",
 		"*.ttf",
 		"*.wav",
-		"*.zip"
+		"*.zip",
+		"*.rws"
 	],
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
@@ -135,6 +143,8 @@
 	[
 		"Anaconda",
 		"Color Highlighter",
+		"DocBlockr",
+		"DoxyDoxygen",
 		"JsPrettier",
 		"LoremIpsum",
 		"ScopeHunter",
@@ -214,7 +224,8 @@
 		"*.otf",
 		"*.eot",
 		"*.ttf",
-		"*.woff"
+		"*.woff",
+		"*.min.js"
 	],
 	"line_padding_top": 0,
 	"margin": 3,

@@ -45,6 +45,10 @@
 					}
 				}
 			}
+		},
+		"jsts": {
+			"enabled": true,
+			"command": ["javascript-typescript-stdio.cmd"]
 		}
 	},
 	"log_stderr": true,

@@ -13,6 +13,7 @@
 		"Color Highlighter",
 		"ColorHelper",
 		"DocBlockr",
+		"DoxyDoxygen",
 		"EasyDiff",
 		"Emmet",
 		"Exalt",
@@ -44,6 +45,7 @@
 		"TrailingSpaces",
 		"TypeScript",
 		"VCS Gutter",
+		"Wrap Plus",
 		"xpath"
 	]
 }
