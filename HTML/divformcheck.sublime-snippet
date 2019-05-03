@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<zt-checkbox ng-model="model.${1:Form Item}">${2:Form Item Name}</zt-checkbox>
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>divformcheck</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html.basic</scope>
-</snippet>

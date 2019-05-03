@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
--- =============================================================================
--- ZS-${1:Jira ID} - ${2:Name}
-
-]]></content>
-	<tabTrigger>-- =</tabTrigger>
-	<scope>source.sql</scope>
-</snippet>

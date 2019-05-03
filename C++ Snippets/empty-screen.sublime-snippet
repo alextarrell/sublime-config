@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-virtual ZScreen* emptyScreen() { return new $1($2); }
-]]></content>
-    <tabTrigger>emptyScreen</tabTrigger>
-    <scope>source.c++</scope>
-</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-dynamic_cast<${1:classname}>(${2:obj})
-]]></content>
-    <tabTrigger>dynamiccast</tabTrigger>
-    <scope>source.c++</scope>
-</snippet>

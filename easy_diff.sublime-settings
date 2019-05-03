@@ -1,8 +1,0 @@
-{
-	"git_disabled": true,
-	"hg_disabled": true,
-	"git_hide_menu": true,
-	"hg_hide_menu": true,
-	"quick_panel_commands": true,
-	"use_sub_notify": false
-}

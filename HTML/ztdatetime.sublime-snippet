@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-zt-datetime ng-model="model.${1}"${2}></zt-datetime>
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ztdatetime</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html</scope>
-</snippet>

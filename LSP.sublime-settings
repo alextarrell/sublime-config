@@ -1,57 +1,89 @@
 {
+	"auto_show_diagnostics_panel": false,
 	"clients":
 	{
+		"bashls":
+		{
+			"command":
+			[
+				"bash-language-server",
+				"start"
+			],
+			"enabled": true,
+			"languageId": "bash",
+			"scopes":
+			[
+				"source.shell.bash"
+			],
+			"syntaxes":
+			[
+				"Packages/ShellScript/Bash.sublime-syntax"
+			]
+		},
+		"eslint":
+		{
+			"enabled": false
+		},
+		"js":
+		{
+			"command":
+			[
+				"lsp-tsserver"
+			],
+			"enabled": true,
+			"languageId": "javascript",
+			"scopes":
+			[
+				"source.js"
+			],
+			"syntaxes":
+			[
+				"Packages/JavaScript/JavaScript.sublime-syntax"
+			]
+		},
 		"pyls":
 		{
-			"enabled": true,
-			"settings": {
-				"pyls": {
-					"plugins": {
-						"pycodestyle": {
-							"enabled": true,
-							"ignore": [
-								"E101",
-								"E121",
-								"E122",
-								"E126",
-								"E127",
-								"E128",
-								"E203",
-								"E221",
-								"E225",
-								"E226",
-								"E231",
-								"E241",
-								"E251",
-								"E261",
-								"E262",
-								"E265",
-								"E301",
-								"E302",
-								"E303",
-								"E305",
-								"E401",
-								"E402",
-								"E501",
-								"E502",
-								"E701",
-								"E731",
-								"W191",
-								"W291",
-								"W292",
-								"W293"
-							]
-						}
-					}
-				}
-			}
+			"enabled": true
 		},
-		"jsts": {
+		"vscode-css":
+		{
+			"command":
+			[
+				"node",
+				"C:\\Users\\aer103411\\AppData\\Roaming\\npm\\node_modules\\vscode-css-languageserver-bin\\cssServerMain.js",
+				"--stdio"
+			],
 			"enabled": true,
-			"command": ["javascript-typescript-stdio.cmd"]
+			"languageId": "CSS",
+			"scopes":
+			[
+				"source.css"
+			],
+			"syntaxes":
+			[
+				"Packages/CSS/CSS.sublime-syntax"
+			]
+		},
+		"vue-ls":
+		{
+			"command":
+			[
+				"vls"
+			],
+			"enabled": true,
+			"languageId": "vue",
+			"scopes":
+			[
+				"text.html.vue"
+			],
+			"syntaxes":
+			[
+				"Packages/Vue Syntax Highlight/Vue Component.sublime-syntax"
+			]
 		}
 	},
-	"log_stderr": true,
 	"diagnostics_highlight_style": "box",
-	"auto_show_diagnostics_panel": false
+	"log_debug": true,
+	"log_server": false,
+	"log_stderr": false
 }

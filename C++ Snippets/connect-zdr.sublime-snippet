@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-connect(${1:zdrDateRange}, SIGNAL(dateRangeChanged()), this, SLOT(${2:_requery}()));
-]]></content>
-	<tabTrigger>connect-zdr</tabTrigger>
-	<scope>source.c++</scope>
-</snippet>

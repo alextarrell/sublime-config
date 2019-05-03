@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-print '${2:$1}:', ${1:Item to Log}
-]]></content>
-	<tabTrigger>log</tabTrigger>
-	<scope>source.python</scope>
-</snippet>
