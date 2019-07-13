@@ -7,6 +7,14 @@
 			"enable": true,
 			"default": true,
 			"platforms": ["windows"]
-		}
+		},
+		{
+            "name": "Bash",
+            "cmd": ["bash", "-i", "-l"],
+            "env": {},
+            "enable": true,
+            "default": true,
+            "platforms": ["linux", "osx"]
+        }
 	]
 }
