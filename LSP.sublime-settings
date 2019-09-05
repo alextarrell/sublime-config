@@ -24,45 +24,36 @@
 		{
 			"enabled": false
 		},
-		"js":
+		"jdtls": {
+			"command": ["java", "-jar", "$HOME/eclipse/java-2019-03/eclipse/plugins/org.eclipse.equinox.launcher_1.5.300.v20190213-1655.jar", "-configuration", "$HOME/lsp/jdt-language-server/config_win"],
+			"enabled": false,
+			"languageId": "java",
+			"scopes": ["source.java"],
+			"syntaxes": ["Packages/Java/Java.sublime-syntax"]
+		},
+		"javascript-typescript-langserver":
 		{
-			"command":
-			[
-				"lsp-tsserver"
-			],
 			"enabled": true,
-			"languageId": "javascript",
-			"scopes":
-			[
-				"source.js"
-			],
-			"syntaxes":
-			[
-				"Packages/JavaScript/JavaScript.sublime-syntax"
-			]
 		},
 		"pyls":
 		{
 			"enabled": true
 		},
-		"vscode-css":
+		"css-languageserver":
 		{
-			"command":
-			[
-				"node",
-				"C:\\Users\\aer103411\\AppData\\Roaming\\npm\\node_modules\\vscode-css-languageserver-bin\\cssServerMain.js",
-				"--stdio"
-			],
+			"command": ["css-languageserver", "--stdio"],
 			"enabled": true,
 			"languageId": "CSS",
-			"scopes":
-			[
-				"source.css"
-			],
-			"syntaxes":
-			[
-				"Packages/CSS/CSS.sublime-syntax"
-			]
+			"scopes": ["source.css"],
+			"syntaxes": ["Packages/CSS/CSS.sublime-syntax"]
+		},
+		"html-languageserver":
+		{
+			"command": ["html-languageserver", "--stdio"],
+			"enabled": true,
+			"languageId": "HTML",
+			"scopes": ["text.html.basic"],
+			"syntaxes": ["Packages/HTML/HTML.sublime-syntax"]
 		},
 		"vue-ls":
 		{
@@ -84,6 +75,6 @@
 	},
 	"diagnostics_highlight_style": "box",
 	"log_debug": true,
-	"log_server": false,
+	"log_server": true,
 	"log_stderr": false
 }

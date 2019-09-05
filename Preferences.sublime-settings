@@ -1,7 +1,39 @@
 {
 	"added_words":
 	[
-		"committer"
+		"committer",
+		"Aggregator",
+		"Correlator",
+		"checkboxes",
+		"autoclassified",
+		"checkbox",
+		"readonly",
+		"datetime",
+		"Metadata",
+		"linearization",
+		"config",
+		"toolbar",
+		"editability",
+		"unsubscribe",
+		"deselect",
+		"Lifecycle",
+		"lifecycle",
+		"gauge",
+		"unsubscribed",
+		"websocket",
+		"deregister",
+		"Javascript",
+		"Unsubscribes",
+		"configs",
+		"javascript",
+		"Vue",
+		"autodiscover",
+		"americas",
+		"Unhandled",
+		"Api",
+		"api",
+		"resaving",
+		"websockets"
 	],
 	"always_show_minimap_viewport": true,
 	"atomic_save": true,
@@ -40,6 +72,7 @@
 		"*.eot",
 		"*.exe",
 		"*.gif",
+		"*.hex",
 		"*.ico",
 		"*.jar",
 		"*.jpeg",
@@ -62,14 +95,15 @@
 		"*.rws",
 		"*.snk",
 		"*.so",
-		"*.swf",
 		"*.svgz",
+		"*.swf",
 		"*.tar",
 		"*.tar.*",
 		"*.terrain",
 		"*.tga",
 		"*.tgz",
 		"*.ttf",
+		"*.vdf",
 		"*.vnx",
 		"*.wav",
 		"*.woff",
@@ -117,13 +151,20 @@
 	[
 		"directwrite"
 	],
-	"font_size": 13,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Markdown",
+		"Theme - Numix Light",
 		"Vintage"
+	],
+	"ignored_words":
+	[
+		"Graphene",
+		"enum",
+		"param"
 	],
 	"indent_guide_options":
 	[

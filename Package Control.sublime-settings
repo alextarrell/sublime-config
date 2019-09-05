@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Theme - Numix Light"
 	],
 	"installed_packages":
 	[
@@ -9,9 +10,11 @@
 		"Alignment",
 		"ANTLR syntax highlight",
 		"ARM Assembly",
+		"AutoDocstring",
 		"Case Conversion",
 		"ColorHelper",
 		"Dockerfile Syntax Highlighting",
+		"DoxyDoxygen",
 		"EasySettings",
 		"EditorConfig",
 		"Emmet",
@@ -28,6 +31,7 @@
 		"Package Control",
 		"PackageResourceViewer",
 		"PowerCursors",
+		"RPM Spec Syntax",
 		"Select Quoted",
 		"SortBy",
 		"SqlBeautifier",
@@ -35,7 +39,6 @@
 		"SublimeLinter",
 		"SublimeLinter-eslint",
 		"SublimeREPL",
-		"SublimeSBT",
 		"Terminus",
 		"Text Pastry",
 		"Theme - Numix Light",
