@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Theme - Numix Light"
 	],
 	"installed_packages":
 	[
@@ -32,6 +31,7 @@
 		"PackageResourceViewer",
 		"PowerCursors",
 		"RPM Spec Syntax",
+		"Sass",
 		"Select Quoted",
 		"SortBy",
 		"SqlBeautifier",

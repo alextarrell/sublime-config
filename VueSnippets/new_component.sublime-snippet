@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<template>
+  ${0:<div></div>}
+</template>
+<script>
+export default {
+  name: '${1:${TM_FILENAME/(.*)\.vue/$1/g}}',
+};
+</script>
+]]></content>
+	<tabTrigger>new_component</tabTrigger>
+	<scope>text.html.vue</scope>
+</snippet>

@@ -33,7 +33,13 @@
 		"Api",
 		"api",
 		"resaving",
-		"websockets"
+		"websockets",
+		"vendored",
+		"repo",
+		"Atlassian",
+		"blog",
+		"toolchain",
+		"deserialization"
 	],
 	"always_show_minimap_viewport": true,
 	"atomic_save": true,
@@ -62,6 +68,7 @@
 		"*.bmp",
 		"*.bz2",
 		"*.cache",
+		"*.class",
 		"*.db",
 		"*.dds",
 		"*.dia",
@@ -78,9 +85,15 @@
 		"*.jpeg",
 		"*.jpg",
 		"*.js.map",
+		"*.mat",
+		"*.mp3",
+		"*.mp4",
 		"*.mpp",
 		"*.msi",
 		"*.nupkg",
+		"*.ods",
+		"*.odt",
+		"*.ogg",
 		"*.pdf",
 		"*.pdn",
 		"*.png",
@@ -93,6 +106,8 @@
 		"*.resources",
 		"*.rpm",
 		"*.rws",
+		"*.sassc",
+		"*.scssc",
 		"*.snk",
 		"*.so",
 		"*.svgz",
@@ -157,7 +172,6 @@
 	"ignored_packages":
 	[
 		"Markdown",
-		"Theme - Numix Light",
 		"Vintage"
 	],
 	"ignored_words":
