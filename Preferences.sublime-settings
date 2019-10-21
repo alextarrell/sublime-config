@@ -75,6 +75,7 @@
 		"*.dll",
 		"*.dmg",
 		"*.doc",
+		".keyStore",
 		"*.docx",
 		"*.eot",
 		"*.exe",
@@ -85,6 +86,7 @@
 		"*.jpeg",
 		"*.jpg",
 		"*.js.map",
+		"*.kmz",
 		"*.mat",
 		"*.mp3",
 		"*.mp4",
@@ -166,7 +168,7 @@
 	[
 		"directwrite"
 	],
-	"font_size": 12,
+	"font_size": 19,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
