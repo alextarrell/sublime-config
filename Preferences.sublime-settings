@@ -39,7 +39,17 @@
 		"Atlassian",
 		"blog",
 		"toolchain",
-		"deserialization"
+		"deserialization",
+		"deserialize",
+		"username",
+		"hardcoded",
+		"errored",
+		"refactored",
+		"wildcard",
+		"endianness",
+		"unhandled",
+		"indices",
+		"compliancy"
 	],
 	"always_show_minimap_viewport": true,
 	"atomic_save": true,
@@ -92,6 +102,7 @@
 		"*.mp4",
 		"*.mpp",
 		"*.msi",
+		"*.nmea",
 		"*.nupkg",
 		"*.ods",
 		"*.odt",
@@ -168,7 +179,7 @@
 	[
 		"directwrite"
 	],
-	"font_size": 19,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -180,6 +191,7 @@
 	[
 		"Graphene",
 		"enum",
+		"java",
 		"param"
 	],
 	"indent_guide_options":

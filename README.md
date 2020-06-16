@@ -26,6 +26,8 @@ $ pip install python-language-server[mccabe]
 $ pip install python-language-server[pycodestyle]
 $ pip install python-language-server[yapf]
 ```
+##### Java
+Will need to follow [these instructions](https://lsp.readthedocs.io/en/latest/#java). Be sure to place the extracted files in ~/lsp/jdt-language-server. Note that the version of the org.eclipse.equinox.launcher_*.jar is likely different. The fuzzy path didn't work so it's currently hard coded.
 
 ### Font Ligatures
 Ligatures make code look nicer [Fira Code](https://github.com/tonsky/FiraCode) is my ligature font of choice at this time though others do exist.

@@ -1,20 +1,45 @@
 {
-	"shell_configs": [
+	"shell_configs":
+	[
 		{
-			"name": "Git Bash",
-			"cmd": ["C:\\Program Files\\Git\\git-cmd.exe", "--no-cd", "--command=usr/bin/bash.exe", "-l", "-i"],
-			"env": {},
-			"enable": true,
+			"cmd":
+			[
+				"C:\\Program Files\\Git\\git-cmd.exe",
+				"--no-cd",
+				"--command=usr/bin/bash.exe",
+				"-l",
+				"-i"
+			],
 			"default": true,
-			"platforms": ["windows"]
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Git Bash",
+			"platforms":
+			[
+				"windows"
+			]
 		},
 		{
-            "name": "Bash",
-            "cmd": ["bash", "-i", "-l"],
-            "env": {},
-            "enable": true,
-            "default": true,
-            "platforms": ["linux", "osx"]
-        }
-	]
+			"cmd":
+			[
+				"bash",
+				"-i",
+				"-l"
+			],
+			"default": true,
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Bash",
+			"platforms":
+			[
+				"linux",
+				"osx"
+			]
+		}
+	],
+	"theme": "atom"
 }
