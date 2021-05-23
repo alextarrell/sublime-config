@@ -1,5 +1,7 @@
 {
-	"show_css_completions": false,
 	"disable_tab_abbreviations_for_scopes": "source.sql",
-	"disabled_keymap_actions": "reflect_css_value,encode_decode_data_url,expand_abbreviation"
+	"disabled_keymap_actions": "reflect_css_value,encode_decode_data_url,expand_abbreviation",
+	"show_css_completions": false,
+	"telemetry": false,
+	"uid": "f5c6bd98-df10-4c6a-8d0c-5a1f29d14a07"
 }

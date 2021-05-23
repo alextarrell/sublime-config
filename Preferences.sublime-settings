@@ -49,7 +49,8 @@
 		"endianness",
 		"unhandled",
 		"indices",
-		"compliancy"
+		"compliancy",
+		"millennia"
 	],
 	"always_show_minimap_viewport": true,
 	"atomic_save": true,
@@ -57,19 +58,19 @@
 	[
 		{
 			"characters": "<",
-			"selector": "text.html"
+			"selector": "text.html",
 		},
 		{
 			"characters": ".",
-			"selector": "source.sql"
+			"selector": "source.sql",
 		},
 		{
 			"characters": ".",
-			"selector": "source.js"
+			"selector": "source.js",
 		},
 		{
 			"characters": ".",
-			"selector": "source.ts"
+			"selector": "source.ts",
 		}
 	],
 	"binary_file_patterns":
@@ -156,8 +157,7 @@
 		"*.min.*",
 		"*-min.*",
 		"*.sublime-workspace",
-		".DS_Store",
-		".gitattributes"
+		".DS_Store"
 	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
@@ -185,7 +185,7 @@
 	"ignored_packages":
 	[
 		"Markdown",
-		"Vintage"
+		"Vintage",
 	],
 	"ignored_words":
 	[
@@ -232,5 +232,5 @@
 	"show_line_endings": true,
 	"spell_check": true,
 	"theme": "Adaptive.sublime-theme",
-	"trim_trailing_white_space_on_save": false
+	"trim_trailing_white_space_on_save": false,
 }

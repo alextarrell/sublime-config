@@ -48,6 +48,7 @@
 		"TrailingSpaces",
 		"TypeScript Syntax",
 		"Vue Syntax Highlight",
-		"Wrap Plus"
-	]
+		"Wrap Plus",
+		"xpath"
+	],
 }
