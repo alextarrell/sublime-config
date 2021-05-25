@@ -1,8 +1,10 @@
 // SublimeLinter Settings - User
 {
 	"linters": {
-		"eslint": {
-			"selector": "text.html.vue, source.js - meta.attribute-with-value"
+		"cppcheck": {
+			"enable": "warning,style,missingInclude",
+			"std": "c++11",
+			"args": ["--language=c++"]
 		}
 	}
 }
