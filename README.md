@@ -19,6 +19,7 @@ $ npm install -g vue-language-server
 $ npm install -g javascript-typescript-langserver
 $ npm install -g vscode-html-languageserver-bin
 $ npm install -g vscode-css-languageserver-bin
+$ npm install -g dockerfile-language-server-nodejs
 $ pip install python-language-server
 $ pip install python-language-server[rope]
 $ pip install python-language-server[pyflakes]

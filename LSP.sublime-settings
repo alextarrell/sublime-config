@@ -10,15 +10,29 @@
 				"start"
 			],
 			"enabled": true,
-			"languageId": "bash",
-			"scopes":
-			[
-				"source.shell.bash"
-			],
-			"syntaxes":
-			[
-				"Packages/ShellScript/Bash.sublime-syntax"
-			]
+			"selector": "source.shell.bash",
+		},
+		"docker-langserver": {
+		  "command": ["docker-langserver", "--stdio"],
+		  "enabled": true,
+		  "selector": "source.dockerfile",
+		  "settings": {
+		    "docker": {
+		      "languageserver": {
+		        "diagnostics": {
+		          // string values must be equal to "ignore", "warning", or "error"
+		          "deprecatedMaintainer": "warning",
+		          "directiveCasing": "warning",
+		          "emptyContinuationLine": "warning",
+		          "instructionCasing": "warning",
+		          "instructionCmdMultiple": "warning",
+		          "instructionEntrypointMultiple": "warning",
+		          "instructionHealthcheckMultiple": "warning",
+		          "instructionJSONInSingleQuotes": "warning"
+		        }
+		      }
+		    }
+		  }
 		},
 		"eslint":
 		{
@@ -44,22 +58,14 @@
 		        "-XX:+UseG1GC",
 		        "-XX:+UseStringDeduplication",
 		        "-jar",
-		        "~/lsp/jdt-language-server/plugins/org.eclipse.equinox.launcher_1.5.600.v20191014-2022.jar",
+		        "~/lsp/jdt-language-server/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar",
 		        "-configuration",
 		        "~/lsp/jdt-language-server/config_mac", // depending on the OS
 		        "-data",
 		        "/tmp/${project_base_name}/jdt_ws"
 		    ],
 		    "enabled": true,
-		    "languageId": "java",
-		    "scopes":
-		    [
-		        "source.java"
-		    ],
-		    "syntaxes":
-		    [
-		        "Packages/Java/Java.sublime-syntax"
-		    ]
+		    "selector": "source.java",
 		},
 		"javascript-typescript-langserver":
 		{
@@ -74,17 +80,13 @@
 		{
 			"command": ["css-languageserver", "--stdio"],
 			"enabled": true,
-			"languageId": "CSS",
-			"scopes": ["source.css"],
-			"syntaxes": ["Packages/CSS/CSS.sublime-syntax"]
+			"selector": "source.css",
 		},
 		"html-languageserver":
 		{
 			"command": ["html-languageserver", "--stdio"],
 			"enabled": true,
-			"languageId": "HTML",
-			"scopes": ["text.html.basic"],
-			"syntaxes": ["Packages/HTML/HTML.sublime-syntax"]
+			"selector": "text.html.basic",
 		},
 		"vue-ls":
 		{
@@ -93,15 +95,7 @@
 				"vls"
 			],
 			"enabled": true,
-			"languageId": "vue",
-			"scopes":
-			[
-				"text.html.vue"
-			],
-			"syntaxes":
-			[
-				"Packages/Vue Syntax Highlight/Vue Component.sublime-syntax"
-			]
+			"selector": "text.html.vue",
 		}
 	},
 	"diagnostics_highlight_style": "box",
