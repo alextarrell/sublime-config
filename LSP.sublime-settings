@@ -98,8 +98,6 @@
 			"selector": "text.html.vue",
 		}
 	},
-	"diagnostics_highlight_style": "box",
 	"log_debug": true,
-	"log_server": true,
-	"log_stderr": true
+	"log_server": ["panel"]
 }
