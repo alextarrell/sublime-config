@@ -52,7 +52,13 @@
 		"compliancy",
 		"millennia",
 		"Unsubscribing",
-		"proxying"
+		"proxying",
+		"directionality",
+		"Iterable",
+		"ok",
+		"misconfigured",
+		"unhashable",
+		"",
 	],
 	"always_show_minimap_viewport": true,
 	"atomic_save": true,
@@ -183,21 +189,22 @@
 	[
 		"directwrite"
 	],
-	"font_size": 20,
+	"font_size": 22,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"EasySettings",
 		"Markdown",
+		"RPM Spec Syntax",
 		"Vintage",
 	],
 	"ignored_words":
 	[
 		"Graphene",
+		"Pydantic",
 		"enum",
 		"java",
-		"param"
+		"param",
 	],
 	"indent_guide_options":
 	[

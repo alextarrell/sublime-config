@@ -1,5 +1,5 @@
 {
-	"auto_show_diagnostics_panel": "never",
+	"show_diagnostics_panel_on_save": 0,
 	"clients":
 	{
 		"bashls":
@@ -67,14 +67,15 @@
 		    "enabled": true,
 		    "selector": "source.java",
 		},
-		"javascript-typescript-langserver":
-		{
-			"enabled": true,
+		"typescript-language-server": {
+			"command": ["typescript-language-server", "--stdio"],
+			"enabled": false,
+			"selector": "source.js | source.js.react | source.jsx | source.jsx.unittest | source.ts | source.ts.react | source.tsx | text.html.basic"
 		},
 		"pyls":
 		{
 			"command": ["pyls", "-v"],
-			"enabled": true
+			"enabled": false
 		},
 		"css-languageserver":
 		{

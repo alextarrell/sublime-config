@@ -1,0 +1,11 @@
+// Settings in here override those in "LSP-pyright/LSP-pyright.sublime-settings"
+{
+	"settings": {
+		"python.analysis.useLibraryCodeForTypes": true,
+		"python.analysis.diagnosticSeverityOverrides": {
+			"reportUnusedImport": "warning",
+			"reportUnusedVariable": "warning",
+			"reportGeneralTypeIssues": "information"
+		}
+	}
+}

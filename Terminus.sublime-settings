@@ -21,25 +21,15 @@
 				"windows"
 			]
 		},
-		{
-			"cmd":
-			[
-				"bash",
-				"-i",
-				"-l"
-			],
-			"default": true,
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "Bash",
-			"platforms":
-			[
-				"linux",
-				"osx"
-			]
-		}
+        {
+            "name": "Zsh",
+            "cmd": ["zsh", "-i", "-l"],
+            "env": {},
+            "default": true,
+            "enable": true,
+            "platforms": ["linux", "osx"]
+        },
 	],
-	"theme": "atom"
+	"theme": "atom",
+	"256color": true,
 }
