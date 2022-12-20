@@ -155,7 +155,7 @@
 	"caret_style": "smooth",
 	"caret_extra_width": 2,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"color_scheme": "Monokai.sublime-color-scheme",
 	"default_line_ending": "unix",
 	"draw_minimap_border": true,
 	"enable_tab_scrolling": false,
@@ -194,6 +194,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Exalt",
 		"Markdown",
 		"RPM Spec Syntax",
 		"Vintage",
@@ -244,5 +245,5 @@
 	"show_line_endings": true,
 	"spell_check": true,
 	"theme": "Adaptive.sublime-theme",
-	"trim_trailing_white_space_on_save": false,
+	"trim_trailing_white_space_on_save": "none",
 }
